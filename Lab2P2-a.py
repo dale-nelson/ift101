@@ -17,5 +17,10 @@ def area(a):
 
 x=check_if_valid()
 
+<<<<<<< HEAD
 print("The circumference of the circle is {0}".format(round(circum(x),2)))
 print("The area of the circle is {0}".format(round(area(x),2)))
+=======
+print("The circumference of the circle is: " + str(circum(x)))
+print("The area of the circle is: " + str(area(x)))
+>>>>>>> ca52a16fe01ae2a839c77a24d96f2c8c13c511f3
